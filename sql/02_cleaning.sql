@@ -19,3 +19,12 @@ SELECT
   "Product Name" AS product_name,
   "Sales" AS sales
 FROM raw_sales;
+
+-- Confirm row count matches
+SELECT COUNT(*) FROM clean_sales;
+
+-- Confirm dates converted correctly (June 12 should now show 2017-06-12, not misread)
+SELECT order_date, ship_date FROM clean_sales LIMIT 5;
+
+-- Confirm data type is now a real date
+SELECT pg_typeof(order_date) FROM clean_sales LIMIT 1;
