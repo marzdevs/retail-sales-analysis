@@ -54,4 +54,14 @@ FROM clean_sales
 GROUP BY category, sub_category
 ORDER BY category, total_sales DESC;
 
+--- 4b. percentage of category total
+SELECT 
+  category, 
+  sub_category, 
+  SUM(sales) AS total_sales,
+  ROUND((SUM(sales) * 100.0 / SUM(SUM(sales)) OVER (PARTITION BY category))::numeric, 1) AS pct_of_category
+FROM clean_sales
+GROUP BY category, sub_category
+ORDER BY category, total_sales DESC;
+
 --- 5. What would I recommend the business focus on next quarter? adding to README.
