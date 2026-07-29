@@ -17,7 +17,7 @@ I wanted a project that actually mirrors what a real Data Analyst role looks lik
 
 **Seasonality:** Sales consistently spike in Q4. October through December outperform every other stretch of the year, with November standing out as the single strongest month, peaking even higher in the most recent year in the data.
 
-**Regional & Category Performance:** [fill in your actual top region+category combo here]
+**Regional & Category Performance:** Technology is the strongest category as well as the West region, both driving highest combined region category sales.
 
 **Customer Segments:** Consumer is the biggest segment by far and stays on top every year, but Corporate and Home Office are both growing steadily and closing the gap over time.
 
