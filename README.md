@@ -32,7 +32,7 @@ I wanted a project that actually mirrors what a real Data Analyst role looks lik
 ![Overview](screenshots/dashboard_overview.png)
 ![Regional & Category Performance](screenshots/regional_performance.png)
 ![Customer Segments](screenshots/customer_segments.png)
-![Sub-Category Breakdown](screenshots/subcategory_breakdown.png)
+![Sub-Category Breakdown](screenshots/profitability.png)
 
 ## Tools I Used
 - PostgreSQL (via Supabase) for storing and querying the data
